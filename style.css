@@ -59,11 +59,6 @@ p{
     background: rgb(119, 60, 60);
     cursor: pointer;
 }
-
-
-
-
-
 footer{
     position: absolute;
     display: fixed;
@@ -92,6 +87,7 @@ footer li a:hover{
 }
 
 @media only screen and (max-width: 725px) {
+    
     section .wrapper {
         display: flex;
         float: left;
@@ -107,4 +103,4 @@ footer li a:hover{
         display: inline;
         padding: 0 1rem;
     }
-  }
+}
