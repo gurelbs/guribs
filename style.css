@@ -119,9 +119,6 @@ footer li a:hover{
         display: grid;
         place-items: center center;
     }
-    .btn-div{
-        margin-bottom: 5rem;
-    }
     .wrapper button:hover{
         background: rgba(185, 172, 149, 0.514);
         cursor: pointer;
