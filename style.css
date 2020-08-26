@@ -3,7 +3,7 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgba(0, 0, 0, 0.87);
     position: absolute;
-    min-width: 100vw;
+    width: 100vw;
 }
 section{
     position: relative;
@@ -14,7 +14,6 @@ section{
     background-position: center;
     background-size: cover;
     color: white;
-
 }
 section .wrapper {
     position: absolute;
@@ -65,6 +64,8 @@ footer{
     bottom: 0;
     right: 0;
     width: 100%;
+    padding-top: 3rem;
+
 }
 footer div {
     display: flexbox;
@@ -87,20 +88,44 @@ footer li a:hover{
 }
 
 @media only screen and (max-width: 725px) {
-    
+    section{
+        height: 100vh;
+    }
     section .wrapper {
-        display: flex;
-        float: left;
+        display: grid;
+        place-items: center center;
     }
     .wrapper button{
         font-size: 80%;
+        width: 85vw;
+        place-items: center;
     }
     .wrapper div button{
         display: grid;
         margin: 2rem;
     }
+    .btn-div{
+        margin-bottom: 5rem;
+    }
+    footer ul{
+        background: rgba(0, 0, 0, 0.397);
+        position: fixed;
+        bottom: 0;
+        padding: 0;
+        margin-bottom: 0;
+        width: 100%;
+    }
     footer ul li{
-        display: inline;
-        padding: 0 1rem;
+        display: grid;
+        place-items: center center;
+    }
+    .btn-div{
+        margin-bottom: 5rem;
+    }
+    .wrapper button:hover{
+        background: rgba(185, 172, 149, 0.514);
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
     }
 }
