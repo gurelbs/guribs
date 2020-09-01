@@ -22,6 +22,9 @@ section{
     top: 0;
     right: 0;
 }
+h3{
+    margin-top: 2rem;
+}
 h3,p{
     font-size: 6rem;
     color: rgba(255, 166, 0, 0.705);
@@ -41,6 +44,8 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 5rem;
+
 }
 .wrapper button{
     border: none;
@@ -73,12 +78,11 @@ footer{
     bottom: 0;
     right: 0;
     width: 100%;
-    padding-top: 3rem;
-
 }
 footer div {
-    display: flexbox;
-    float: center ;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
 }
 footer ul li{
     list-style: none;
@@ -95,3 +99,15 @@ footer li a:hover{
     font-weight: 700;
     z-index: -1;
 }
+
+@media only screen and (max-width: 600px) {
+    h3 {
+      font-size: 3rem;
+      margin-top: 3rem;
+    }
+    p{
+        font-size: 100%;
+        margin-bottom: 3rem;
+
+    }
+  }
