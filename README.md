@@ -1,3 +1,3 @@
 # GuriBS
 
-link <a href="https://guribs.com">here</a>
+link <a href="https://gurelbs.github.io/guribs/">here</a>
